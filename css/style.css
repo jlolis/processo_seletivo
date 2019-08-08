@@ -1,0 +1,21 @@
+.bg-barraInicial{
+    background-color: #2571b7;
+}
+
+button.botao_inicial
+{
+    color: #fff;
+    background-color: #002050;
+    border:none;
+}
+
+.logo_inicial
+{
+    margin-left: 15%;
+}
+
+.menu_inicial
+{
+    margin-left: 40%;
+}
+
