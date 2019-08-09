@@ -11,11 +11,71 @@ button.botao_inicial
 
 .logo_inicial
 {
-    margin-left: 15%;
+    margin-left: 19%;
 }
 
 .menu_inicial
 {
     margin-left: 40%;
+    white-space: 10%;
+}
+
+h2
+{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    text-size-adjust: large;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    border-color: transparent;
+}
+
+.caption {
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px)
+{
+    
+    
+        .logo_inicial
+        {
+            visibility: hidden;
+
+        } 
+
+        IMG.dropbox
+        { 
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+
+
+        .caption {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            -webkit-background-size:cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    
 }
 
